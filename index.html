@@ -106,12 +106,24 @@
     </div>
   </main>
 </div>
+<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCrQ135k9saY-VsR2IWkSrpHEQY190bjk0",
+    authDomain: "homework9-9b53f.firebaseapp.com",
+    databaseURL: "https://homework9-9b53f.firebaseio.com",
+    projectId: "homework9-9b53f",
+    storageBucket: "homework9-9b53f.appspot.com",
+    messagingSenderId: "577683804679"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <!-- Import and configure the Firebase SDK -->
 <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
 <!-- If you do not want to serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
-<script src="/__/firebase/3.8.0/firebase.js"></script>
-<script src="/__/firebase/init.js"></script>
+
 
 <script src="scripts/main.js"></script>
 </body>
